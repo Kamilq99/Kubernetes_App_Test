@@ -2,7 +2,7 @@ FROM nginx:stable-bookworm-perl
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-COPY inddex.html /usr/share/nginx/html
+COPY index.html /usr/share/nginx/html
 COPY script.js /usr/share/nginx/html
 
 EXPOSE 80
